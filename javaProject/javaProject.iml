@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-controls:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-controls:win:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-graphics:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-base:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-base:win:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-graphics:win:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-fxml:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.openjfx:javafx-fxml:win:19-ea+7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="io.vertx.sql.client" level="project" />
+    <orderEntry type="library" name="atomikos.transactions.jdbc" level="project" />
+    <orderEntry type="library" name="ivanceras.fluentsql" level="project" />
+    <orderEntry type="library" name="apache.camel.sql" level="project" />
+    <orderEntry type="library" name="octo.java.sql.dsl" level="project" />
+    <orderEntry type="library" name="io.vulpine.lib.java.sql.import" level="project" />
+    <orderEntry type="library" name="java.sql.generator.implementation" level="project" />
+    <orderEntry type="library" name="microsoft.sqlserver.mssql.jdbc" level="project" />
+    <orderEntry type="library" name="apache.flink.sql.connector.hive.2.0_2.11" level="project" />
+    <orderEntry type="library" name="eu.acolyte.jdbc.java8" level="project" />
+    <orderEntry type="library" name="googlecode.jdbc.proc.daofactory" level="project" />
+    <orderEntry type="library" name="mysql-connector-j-8.0.31" level="project" />
+  </component>
+</module>

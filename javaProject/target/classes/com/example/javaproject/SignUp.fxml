@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <children>
+        <AnchorPane layoutY="108.0" prefHeight="292.0" prefWidth="700.0" style="-fx-background-color: fafafa;">
+            <children>
+                <TextField fx:id="SgnUpLastName" layoutX="388.0" layoutY="23.0" prefHeight="26.0" prefWidth="224.0" promptText="Фамилия">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </TextField>
+                <Button fx:id="authSigninButton" layoutX="243.0" layoutY="220.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="214.0" style="-fx-background-color: silver;" text="Зарегестрироваться" textFill="#945eff">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            <TextField fx:id="SignUpName" layoutX="131.0" layoutY="23.0" prefHeight="26.0" prefWidth="224.0" promptText="Имя">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordfield" layoutX="388.0" layoutY="91.0" prefHeight="40.0" prefWidth="224.0" promptText="Пароль">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <CheckBox fx:id="SignUpCheckboxMale" layoutX="274.0" layoutY="164.0" mnemonicParsing="false" selected="true" text="Мужчина" />
+            <CheckBox fx:id="SignUpCheckboxFemale" layoutX="383.0" layoutY="164.0" mnemonicParsing="false" text="Женщина" />
+            <TextField fx:id="lognField" layoutX="131.0" layoutY="91.0" prefHeight="26.0" prefWidth="224.0" promptText="Логин">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="288.0" layoutY="39.0" text="FENIBYT" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
