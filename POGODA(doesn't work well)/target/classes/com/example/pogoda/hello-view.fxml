@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="357.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pogoda.HelloController">
+   <children>
+      <AnchorPane prefHeight="90.0" prefWidth="357.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="WHITE" layoutX="116.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Погода" wrappingWidth="143.0789337158203">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="city" layoutX="104.0" layoutY="110.0" promptText="Введите город" />
+      <Button fx:id="GetData" layoutX="128.0" layoutY="158.0" mnemonicParsing="false" text="Узнать погоду" textFill="#64006b">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Text fill="#ff3939" layoutX="92.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ИНФОРМАЦИЯ" wrappingWidth="173.33673095703125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fx:id="temprityre" fill="WHITE" layoutX="48.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура" wrappingWidth="112.53668212890625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="chous" fill="WHITE" layoutX="48.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ощущается" wrappingWidth="112.53668212890625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="max" fill="WHITE" layoutX="50.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимум">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="min" fill="WHITE" layoutX="54.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Минимум">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="preasyre" fill="WHITE" layoutX="54.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Давление">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
